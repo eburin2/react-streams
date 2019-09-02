@@ -1,5 +1,11 @@
-import { combineReducers } from 'redux';
+export const signIn = () => {
+  return {
+    type: 'SIGN_IN'
+  }
+};
 
-export default combineReducers({
-  replaceMe: () =>
-});
+export const signOut = () => {
+  return {
+    type: 'SIGN_OUT'
+  }
+};
